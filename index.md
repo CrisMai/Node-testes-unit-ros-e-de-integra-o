@@ -16,3 +16,8 @@ Tipo específico de validação, checagem ou verificação.
 As asserções poderão ser verdadeiras ou falsas.
 São expressões que verificamos e retornam um resultado. Mas elas não servem só para o tipo específico de números. 
 Elas podem funcionar com strings, com arrays, ou até com aqueles dados e objetos que nós mesmos criamos.
+
+
+----- Jest ------
+
+Jest é uma biblioteca de testes automatizados para JavaScript. 
