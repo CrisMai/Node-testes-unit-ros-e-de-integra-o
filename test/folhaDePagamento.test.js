@@ -1,14 +1,14 @@
-import { somaHorasExtras, calculaDescontos } from "../index.js";
+import { somaHorasExtras, calculaDescontos } from '../index.js';
 
-describe("Testes dos cálculos de folha", () => {
-  it("Deve retornar a soma das horas extras", () => {
+describe('Testes dos cálculos de folha', () => {
+  it('Deve retornar a soma das horas extras', () => {
     const esperado = 2500;
     const retornado = somaHorasExtras(2000, 500);
 
     expect(retornado).toBe(esperado);
   });
 
-  it("Deve retornar o valor do salario", () => {
+  it('Deve retornar o valor do salario', () => {
     const esperado = 2300;
     const retornado = calculaDescontos(2500, 200);
 
