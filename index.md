@@ -21,3 +21,9 @@ Elas podem funcionar com strings, com arrays, ou até com aqueles dados e objeto
 ----- Jest ------
 
 Jest é uma biblioteca de testes automatizados para JavaScript. 
+
+----- Matchers ------
+
+O Jest utiliza funções chamadas de matchers (em português, algo como “combinadoras”), que servem 
+para verificar e comparar resultados esperados e recebidos nos testes - ou seja, essas funções 
+verificam se os resultados “combinam” entre si. 
